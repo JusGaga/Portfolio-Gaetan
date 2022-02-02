@@ -25,13 +25,13 @@ const Footer = () => {
                             <div className={"btnFooter"}>
                             <button>Send</button>
                             </div>
+
                         </form>
                     </div>
                 </div>
                 <div className={"footer"}>
                     <img src={footer} alt="Footer"/>
                 </div>
-
             </div>
             <div className={"copy"}>
                 Made by JusGaga © 2022
