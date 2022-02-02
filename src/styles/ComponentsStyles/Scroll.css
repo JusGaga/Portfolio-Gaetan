@@ -1,0 +1,19 @@
+.Scrollspace{
+    height: 150px ;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.SmallLine{
+    margin-left: 25px;
+    width: 50px;
+    height: 4px;
+    background: var(--white);
+    border-radius: 2px;
+}
+
+.active {
+    width: 100px;
+}

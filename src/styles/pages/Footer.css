@@ -1,0 +1,28 @@
+.ContainerFooter{
+
+    position: relative;
+    top: 101vh;
+    /*background: red;*/
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    overflow:hidden;
+
+}
+
+.footer{
+    position: absolute;
+    bottom: -300px;
+
+}
+
+.ContainerFooter2{
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+}
+.RightFooter{
+    display: flex;
+
+}

@@ -1,0 +1,68 @@
+.middlePageHome3{
+    position: relative;
+    top: 101vh;
+    /*background: red;*/
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.ContainerAboutMe{
+    position: absolute;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.Present2{
+    position: absolute;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 200px;
+    width: 500px;
+    margin-left: 200px ;
+    color: var(--white);
+}
+.Present2 h1{
+    font-size: 44px;
+}
+
+.Present2 h2{
+    margin-top: 25px;
+    font-size: 28px;
+    margin-left: 50px;
+    text-shadow: 4px 4px 10px #000000;
+}
+
+.Present2 div a {
+    margin-top:50px ;
+    width: 200px;
+    height: 50px;
+    background: #61dafb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+.AboutMeImg{
+    position:absolute;
+    top:-25vh;
+    z-index: 0;
+    width: 1200px;
+    margin-left: 320px;
+    border-radius: 50px;
+
+}
+.line3{
+    position: absolute;
+    z-index: 0;
+    top: 300vh;
+    width: 100vw;
+    height: 6px;
+    background: linear-gradient(-90deg,rgba(42,42,60,0)0%,rgba(255,255,255,100)50%,rgba(42,42,60,0)100%);
+}
+
+
