@@ -17,12 +17,62 @@
 }
 
 .ContainerFooter2{
-    position: absolute;
     z-index: 2;
+    width: 100%;
     display: flex;
+    justify-content: space-around;
     align-items: center;
 }
-.RightFooter{
-    display: flex;
+.leftFooter{
+    color: var(--white);
+    margin-top: 200px ;
+    width: 600px;
+}
 
+.leftFooter h1{
+line-height: 2em;
+}
+
+.RightFooter{
+    margin-top: 100px ;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#FormContact *{
+    border:none;
+    outline: none;
+}
+
+#FormContact label{
+    color: var(--white)
+}
+
+#FormContact input, #FormContact label, #FormContact textarea{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 400px;
+    padding:10px;
+    border-radius: 25px;
+    resize: none;
+}
+
+#FormContact button {
+    width: 100px;
+    height: 35px;
+    border-radius: 25px;
+}
+
+.btnFooter{
+    display: flex;
+    justify-content: flex-end;
+}
+.copy{
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: -98vh;
+    z-index: 4;
 }
