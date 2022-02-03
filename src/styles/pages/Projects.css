@@ -1,22 +1,39 @@
+.planet2{
+    position:absolute;
+    top:calc(100vh - 328px);
+}
+
+
 .middlePageHome2{
     position: absolute;
     top:100vh;
     height: 100vh;
     width: 100vw;
     overflow: hidden;
-    /*background: red;*/
     display: flex;
     align-items: center;
+
 }
-.Present{
+
+.containerProject{
     position: absolute;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Present{
+    position: relative;
     z-index: 10;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 200px;
+
+    height: 300px;
     width: 500px;
-    margin-left: 200px ;
+    padding-left: 250px ;
     color: var(--white);
 
 }
@@ -43,26 +60,12 @@
     border-radius: 25px;
 }
 
-.planet2{
-    position:absolute;
-    top:400px
-}
-
 .ProjectImg{
-    position:absolute;
-    top:-25vh;
     z-index: 0;
     width: 1200px;
-    margin-left: 320px;
     border-radius: 50px;
+}
 
-}
-.containerProject{
-    position: absolute;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-}
 
 .underTitle{
     margin-top: 10px;
@@ -83,8 +86,8 @@
     justify-content: flex-end;
     position: absolute;
     z-index: 1;
-    top: 160vh;
-    right: 0;
+    top: calc(200vh - 298px);
+    right: calc(((100vw - 1920px)/2) - 8px)
 }
 .planet3 img{
     width: 75%;

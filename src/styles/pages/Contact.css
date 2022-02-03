@@ -1,8 +1,9 @@
 .middlePageHome4{
-    position: relative;
-    top: 101vh;
-    /*background: red;*/
+    position: absolute;
+    top:300vh;
     height: 100vh;
+    width: 100vw;
+    overflow: hidden;
     display: flex;
     align-items: center;
 }
@@ -10,32 +11,36 @@
 .ContainerContact{
     position: absolute;
     height: 100vh;
+    width: 100vw;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .Present3{
-    position: absolute;
+    position: relative;
     z-index: 10;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 200px;
+
+    height: 300px;
     width: 500px;
-    margin-left: 200px ;
+    padding-left: 250px ;
     color: var(--white);
 }
 .Present3 h1{
     font-size: 44px;
-}
-.Present3 h2 a {
-    color: var(--white);
 }
 .Present3 h2{
     margin-top: 25px;
     font-size: 28px;
     margin-left: 50px;
     text-shadow: 4px 4px 10px #000000;
+}
+
+.Present3 h2 a {
+    color: var(--white);
 }
 
 .Present3 div a {
@@ -50,11 +55,8 @@
 }
 
 .ContactMeImg{
-    position:absolute;
-    top:-25vh;
     z-index: 0;
     width: 1200px;
-    margin-left: 320px;
     border-radius: 50px;
 
 }
@@ -62,14 +64,15 @@
 .planet4{
     position: absolute;
     z-index: 1;
-    top:250vh;
+    top:calc(300vh - 329px);
 }
 
 .planet5{
     position: absolute;
     z-index: 1;
-    top: 350vh;
-    right: -20px;
+    top: calc(400vh - 360px);
+    /*right: 0;*/
+    right: calc(((100vw - 1920px)/2) - 8px)
 }
 
 .line4{

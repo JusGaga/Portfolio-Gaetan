@@ -30,11 +30,11 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className={"footer"}>
-                    <img src={footer} alt="Footer"/>
+                    <img src={footer} alt="Planet Footer" />
                 </div>
-            </div>
             <div className={"copy"}>
                 Made by JusGaga © 2022
+            </div>
             </div>
         </>
     );

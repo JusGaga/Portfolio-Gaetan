@@ -8,11 +8,13 @@ import Footer from "./pages/Footer";
 const AllHome = () => {
     return (
         <>
+
             <Home/>
             <Projects/>
             <AboutMe/>
             <Contact />
             <Footer/>
+
         </>
     );
 };

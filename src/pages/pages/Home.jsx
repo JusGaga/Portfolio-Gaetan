@@ -13,7 +13,7 @@ const Home = () => {
     return (
         <>
             <NavBar />
-            <div className={"middlePage"}>
+            <div className={"middlePage "}>
                 <Scroll />
                 <div className={"circle "}>
                     <h3 className={'center one'}>Juston Gaetan</h3>

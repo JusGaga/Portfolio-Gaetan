@@ -15,21 +15,19 @@ const Projects = () => {
     return (
         <>
             <div className={"planet2"}>
-                <img src={planet2} alt="planet3"/>
+                <img src={planet2} alt="planet2"/>
             </div>
-            <div className={"middlePageHome2"}>
+            <div className={"middlePageHome2 "}>
                 <Scroll />
                 <div className="containerProject">
-                <div className="Present">
-                    <h1>Project</h1>
-                    <img className="underTitle" src={UnderTitle}></img>
-                    <h2>Explore my different projects,<br/>
-                        I'll explain how did it.</h2>
-                    <div><Link to="#">Explore More</Link></div>
-                </div>
-                    <div>
-                        <img className={"ProjectImg"} src={ProjectImg} alt="Image Project"/>
-                    </div>
+                  <div className="Present">
+                      <h1>Project</h1>
+                      <img className="underTitle" src={UnderTitle} alt={"underTitle"}></img>
+                      <h2>Explore my different projects,<br/>
+                          I'll explain how did it.</h2>
+                      <div><Link to="#">Explore More</Link></div>
+                  </div>
+                  <img className={"ProjectImg"} src={ProjectImg} alt=" Project" />
                 </div>
             </div>
             <div className={"planet3"}>

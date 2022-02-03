@@ -17,12 +17,13 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-    margin: 0;
+    margin:0;
     padding: 0;
     border: 0;
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
@@ -52,9 +53,15 @@ html,body{
     background: var(--bg-color);
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
+    margin: 0 auto;
+
 }
 
 a{
     text-decoration: none;
     color: black;
+}
+
+*{
+    max-width: 1920px;
 }

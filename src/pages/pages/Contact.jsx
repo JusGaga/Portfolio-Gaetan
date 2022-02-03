@@ -13,19 +13,16 @@ const Contact = () => {
             <div className={"planet4"}>
                 <img src={planet4} alt="planet4"/>
             </div>
-            <div className={"middlePageHome4"}>
+            <div className={"middlePageHome4 "}>
                 <Scroll />
                 <div className={"ContainerContact"}>
                     <div className="Present3">
                         <h1>Contact Me</h1>
-                        <img className="underTitle" src={UnderTitle}></img>
+                        <img className="underTitle" src={UnderTitle} alt={"underTitle"}></img>
                         <h2><a href="#FormContact">Mail : gaetan3107@gmail.com</a><br/><br/><br/>phone : 07 77 95 15 80</h2>
                         <div><Link to="#">Contact form</Link></div>
                     </div>
-
-                    <div className={"imgAboutMe"}>
-                        <img className={"ContactMeImg"} src={ContactMe} alt="Image Contact"/>
-                    </div>
+                    <img className={"ContactMeImg"} src={ContactMe} alt=" Contact"/>
                 </div>
             </div>
             <div className={"planet5"}>

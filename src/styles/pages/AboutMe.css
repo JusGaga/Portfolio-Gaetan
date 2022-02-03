@@ -1,8 +1,9 @@
 .middlePageHome3{
-    position: relative;
-    top: 101vh;
-    /*background: red;*/
+    position: absolute;
+    top:200vh;
     height: 100vh;
+    width: 100vw;
+    overflow: hidden;
     display: flex;
     align-items: center;
 }
@@ -10,21 +11,26 @@
 .ContainerAboutMe{
     position: absolute;
     height: 100vh;
+    width: 100vw;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .Present2{
-    position: absolute;
+    position: relative;
     z-index: 10;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 200px;
+
+    height: 300px;
     width: 500px;
-    margin-left: 200px ;
+    padding-left: 250px ;
     color: var(--white);
+
 }
+
 .Present2 h1{
     font-size: 44px;
 }
@@ -48,14 +54,12 @@
 }
 
 .AboutMeImg{
-    position:absolute;
-    top:-25vh;
     z-index: 0;
     width: 1200px;
-    margin-left: 320px;
     border-radius: 50px;
 
 }
+
 .line3{
     position: absolute;
     z-index: 0;

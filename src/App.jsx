@@ -7,6 +7,7 @@ import AllHome from "./pages/AllHome";
 function App() {
   return (
     <>
+      <div >
       <BrowserRouter>
         <div className="Container">
           <Routes>
@@ -14,7 +15,7 @@ function App() {
           </Routes>
         </div>
       </BrowserRouter>
-
+      </div>
     </>
   );
 }

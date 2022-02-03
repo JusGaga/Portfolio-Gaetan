@@ -9,18 +9,18 @@ import AboutMeImg from "../../Img/AboutMeImg.png";
 const AboutMe = () => {
     return (
         <>
-            <div className={"middlePageHome3"}>
+            <div className={"middlePageHome3 "}>
                 <Scroll />
-                <div className={"ContainerAboutMe"}>
+                <div className={"ContainerAboutMe "}>
                     <div className="Present2">
                         <h1>About Me</h1>
-                        <img className="underTitle" src={UnderTitle}></img>
+                        <img className="underTitle" src={UnderTitle} alt={"underTitle"}></img>
                         <h2>I love travelling,<br/> discovering and creating</h2>
                         <div><Link to="#">Who I am ? </Link></div>
                     </div>
 
                 <div className={"imgAboutMe"}>
-                    <img className={"AboutMeImg"} src={AboutMeImg} alt="Image Project"/>
+                    <img className={"AboutMeImg"} src={AboutMeImg} alt=" Project"/>
                 </div>
                 </div>
             </div>

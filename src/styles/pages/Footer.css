@@ -1,19 +1,21 @@
 .ContainerFooter{
 
-    position: relative;
-    top: 101vh;
-    /*background: red;*/
+    position: absolute;
+    top:400vh;
     height: 100vh;
+    width: 100vw;
+    overflow: hidden;
     display: flex;
     align-items: center;
-    overflow:hidden;
 
 }
 
 .footer{
     position: absolute;
     bottom: -300px;
-
+    width: 100vw;
+    display: flex;
+    justify-content: center;
 }
 
 .ContainerFooter2{
@@ -72,7 +74,8 @@ line-height: 2em;
     color: var(--white);
     display: flex;
     justify-content: center;
-    position: relative;
-    bottom: -98vh;
+    position: absolute;
+    top: 497vh;
+    left: calc(50vw - 99px);
     z-index: 4;
 }
