@@ -10,8 +10,8 @@ const Footer = () => {
             <div className={"ContainerFooter"}>
                 <div className={"ContainerFooter2"}>
                     <div className={"leftFooter"}>
-                        <h1>This website is inspired by the Kyon Yagi website : https://www.kuon.space <br/>
-                            The images were made by Seda : https://www.figma.com/@seda</h1>
+                        <h1>This website is inspired by the <a className="link link--metis" href="https://www.kuon.space"> Kyon Yagi website </a><br/>
+                            The images were made by <a className="link link--metis" href="https://www.figma.com/@seda"> Seda </a> </h1>
                     </div>
                     <div className={"RightFooter"}>
                         <h1 style={{fontSize:'24px',marginBottom:"15px",marginLeft:"5px",color:"var(--white)"}}>Contact Form</h1>
@@ -21,7 +21,7 @@ const Footer = () => {
                             <label htmlFor="Email">Your Email :</label>
                             <input type="email" name={"Email"} id={"Email"} placeholder={"Email@email.com..."}/>
                             <label htmlFor="Messsage">Your message:</label>
-                            <textarea name={"Message"} id={"Message"} cols={90} rows={15} placeholder={"Your message..."}></textarea>
+                            <textarea name={'Message'} id={'Message'} cols={90} rows={15} placeholder={'Your message...'}/>
                             <div className={"btnFooter"}>
                             <button>Send</button>
                             </div>

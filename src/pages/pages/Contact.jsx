@@ -14,7 +14,7 @@ const Contact = () => {
                 <img src={planet4} alt="planet4"/>
             </div>
             <div className={"middlePageHome4 "}>
-                <Scroll />
+                <Scroll page={4} />
                 <div className={"ContainerContact"}>
                     <div className="Present3">
                         <h1>Contact Me</h1>

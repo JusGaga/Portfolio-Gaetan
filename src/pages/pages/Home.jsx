@@ -14,7 +14,8 @@ const Home = () => {
         <>
             <NavBar />
             <div className={"middlePage "}>
-                <Scroll />
+                <Scroll page={1}/>
+              <div className={"centerPage"}>
                 <div className={"circle "}>
                     <h3 className={'center one'}>Juston Gaetan</h3>
                     <p className={"center two"}>Web developer</p>
@@ -22,6 +23,7 @@ const Home = () => {
                     <div className={"planet"}>
                         <img src={planet} alt="Planet"/>
                     </div>
+              </div>
             </div>
             <div className={"bottom"}>
                 <div className={"scrollDown"}>

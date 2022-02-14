@@ -18,7 +18,7 @@ const Projects = () => {
                 <img src={planet2} alt="planet2"/>
             </div>
             <div className={"middlePageHome2 "}>
-                <Scroll />
+                <Scroll page={2}/>
                 <div className="containerProject">
                   <div className="Present">
                       <h1>Project</h1>

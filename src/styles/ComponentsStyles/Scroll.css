@@ -3,16 +3,47 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    position: inherit;
+    z-index: 12;
 }
 
 .SmallLine{
     margin-left: 25px;
-    width: 50px;
-    height: 4px;
+    width: 100px;
+    height: 6px;
     background: var(--white);
     border-radius: 2px;
+    overflow: hidden;
 }
 
 .active {
-    width: 100px;
+    width: 150px;
+
+}
+
+.SmallLine span{
+    display: flex;
+    justify-content: center;
+    color: #61dafb;
+    padding-top: 5px;
+}
+
+.SmallLine:hover, .SmallLine:hover span{
+    max-height: 25px;
+    animation: test 2s linear 0.2s 1 normal forwards;
+    overflow: hidden;
+
+}
+
+@keyframes test {
+    0%{
+    visibility: visible;
+    }
+    50%{
+        transform: translateY(0px);
+    }
+    100%{
+
+        height: 100%;
+    }
 }

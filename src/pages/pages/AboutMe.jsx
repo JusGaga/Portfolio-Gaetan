@@ -10,7 +10,7 @@ const AboutMe = () => {
     return (
         <>
             <div className={"middlePageHome3 "}>
-                <Scroll />
+                <Scroll page={3} />
                 <div className={"ContainerAboutMe "}>
                     <div className="Present2">
                         <h1>About Me</h1>
