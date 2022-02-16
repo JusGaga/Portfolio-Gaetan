@@ -1,0 +1,141 @@
+.ContentAboutMePages{
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    background: whitesmoke;
+    height: 100%;
+    text-align: justify;
+}
+
+.ContentAboutMePages h1{
+    padding-top: 1em;
+    text-align: center;
+    font-size: 32px;
+}
+
+.centerContentAboutMePages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftAboutMe{
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 32px - 2em);
+    padding-left: 10em;
+}
+
+.imgProfil{
+    width: 300px;
+    height: 500px;
+    background: red;
+}
+
+.rightAboutMe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+    padding-left: 5em;
+}
+
+.rightAboutMe h1{
+    font-size: 24px;
+}
+
+.rightAboutMe h3{
+    width: 50%;
+    line-height: 1.2em;
+    color: grey;
+    padding-top: 3em;
+}
+
+.Separator{
+    position: absolute;
+    z-index: 1;
+    top: calc(0px + 2em + 24px);
+    width: 50%;
+    height: 6px;
+    background:linear-gradient(90deg, rgba(42, 42, 60,1) 0%, rgba(255,255,255,0) 85%);
+}
+
+.Separator2{
+    position: absolute;
+    z-index: 1;
+    top: calc(0px + 2em + 24px);
+    width: 50%;
+    height: 6px;
+    background:linear-gradient(90deg, rgba(42, 42, 60,1) 0%, rgba(255, 255, 255,0) 85%);
+}
+
+.SecondContentAboutMePages{
+    position: absolute;
+    top: 200%;
+    width: 100%;
+    background: whitesmoke;
+    height: 100%;
+    text-align: justify;
+}
+.SecondContentAboutMePages h1{
+    padding-top: 1em;
+    text-align: center;
+    font-size: 32px;
+}
+
+.centerSecondContentAboutMePages{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: calc(100vh - 32px - 2em);
+}
+
+.centerSecondContentAboutMePages div{
+    width: 25%;
+}
+
+.centerSecondContentAboutMePages div h3{
+    width: 100%;
+    line-height: 1.2em;
+    color: grey;
+    padding-top: 3em;
+}
+
+
+.LastContentAboutMePages{
+    position: absolute;
+    top: 300%;
+    width: 100%;
+    background: whitesmoke;
+    height: 100%;
+    text-align: justify;
+}
+
+.LastContentAboutMePages h1{
+    padding-top: 1em;
+    text-align: center;
+    font-size: 32px;
+}
+
+.Number{
+    font-size: 48px;
+    color:coral;
+}
+
+.Separator3{
+    position: absolute;
+    z-index: 1;
+    top: calc(0px + 2em + 24px);
+    width: 50%;
+    height: 6px;
+    background:linear-gradient(90deg, rgba(42, 42, 60,1) 0%, rgba(255, 255, 255,0) 85%);
+}
+
+.centerLastContentAboutMePages{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: calc(100vh - 48px - 2em);
+}
+
