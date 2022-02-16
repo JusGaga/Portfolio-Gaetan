@@ -1,11 +1,11 @@
 import React from 'react';
 
-import "../../styles/pages/Home.css"
+import "../../../styles/pages/StarterPages/Home.css"
 
-import NavBar from "../../components/NavBar";
-import Scroll from "../../components/Scroll";
+import NavBar from "../../../components/NavBar";
+import Scroll from "../../../components/Scroll";
 
-import planet from "../../Img/Planet.svg"
+import planet from "../../../Img/Planet.svg"
 
 
 
@@ -20,7 +20,7 @@ const Home = () => {
                     <h3 className={'center one'}>Juston Gaetan</h3>
                     <p className={"center two"}>Web developer</p>
                 </div>
-                    <div className={"planet"}>
+                    <div className={"planet "}>
                         <img src={planet} alt="Planet"/>
                     </div>
               </div>
@@ -29,7 +29,7 @@ const Home = () => {
                 <div className={"scrollDown"}>
                     Scroll Down
                 </div>
-                <div className="line"></div>
+                <div className="line "></div>
             </div>
         </>
     );

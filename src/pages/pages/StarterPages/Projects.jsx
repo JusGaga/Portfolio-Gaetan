@@ -1,13 +1,13 @@
 import React from 'react';
 
-import "../../styles/pages/Projects.css"
+import "../../../styles/pages/StarterPages/Projects.css"
 
-import planet2 from "../../Img/planet2.svg"
-import planet3 from "../../Img/planet3.svg"
-import ProjectImg from "../../Img/ProjectImg.png"
-import UnderTitle from "../../Img/UnderTitle.svg"
+import planet2 from "../../../Img/planet2.svg"
+import planet3 from "../../../Img/planet3.svg"
+import ProjectImg from "../../../Img/ProjectImg.png"
+import UnderTitle from "../../../Img/UnderTitle.svg"
 
-import Scroll from "../../components/Scroll";
+import Scroll from "../../../components/Scroll";
 import {Link} from "react-router-dom";
 
 
@@ -27,8 +27,8 @@ const Projects = () => {
                           I'll explain how did it.</h2>
                       <div><Link to="#">Explore More</Link></div>
                   </div>
-                  <img className={"ProjectImg"} src={ProjectImg} alt=" Project" />
                 </div>
+                  <img className={"ProjectImg "} src={ProjectImg} alt=" Project" />
             </div>
             <div className={"planet3"}>
                 <img src={planet3} alt="planet3"/>

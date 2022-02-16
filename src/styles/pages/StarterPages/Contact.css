@@ -1,30 +1,23 @@
-.planet2{
-    position:absolute;
-    top:calc(100vh - 328px);
-}
-
-
-.middlePageHome2{
+.middlePageHome4{
     position: absolute;
-    top:100vh;
-    height: 100vh;
-    width: 100vw;
+    top:300%;
+    height: 100%;
+    width: 100%;
     overflow: hidden;
     display: flex;
     align-items: center;
-
 }
 
-.containerProject{
+.ContainerContact{
     position: absolute;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.Present{
+.Present3{
     position: relative;
     z-index: 10;
     display: flex;
@@ -35,21 +28,22 @@
     width: 500px;
     padding-left: 250px ;
     color: var(--white);
-
 }
-
-.Present h1{
+.Present3 h1{
     font-size: 44px;
 }
-
-.Present h2{
+.Present3 h2{
     margin-top: 25px;
     font-size: 28px;
     margin-left: 50px;
     text-shadow: 4px 4px 10px #000000;
 }
 
-.Present div a {
+.Present3 h2 a {
+    color: var(--white);
+}
+
+.Present3 div a {
     margin-top:50px ;
     width: 200px;
     height: 50px;
@@ -60,36 +54,38 @@
     border-radius: 25px;
 }
 
-.ProjectImg{
+.ContactMeImg{
     z-index: 0;
-    width: 1200px;
+    width: 65%;
     border-radius: 50px;
+    position: absolute;
+    right: 0;
 }
 
-
-.underTitle{
-    margin-top: 10px;
-    width: 40%;
+.planet4{
+    position: absolute;
+    z-index: 1;
+    top:calc(300% - 329px);
 }
 
-.line2{
+.planet5{
+    position: absolute;
+    z-index: 1;
+    top: calc(400% - 360px);
+    left: calc(100% - 504px);
+}
+
+.line4{
     position: absolute;
     z-index: 0;
-    top: 200vh;
-    width: 100vw;
+    top: 400%;
+    width: 100%;
     height: 6px;
     background: linear-gradient(-90deg,rgba(42,42,60,0)0%,rgba(255,255,255,100)50%,rgba(42,42,60,0)100%);
 }
 
-.planet3{
-    display: flex;
-    justify-content: flex-end;
-    position: absolute;
-    z-index: 1;
-    top: calc(200vh - 298px);
-    right: calc(((100vw - 1920px)/2) - 8px)
+@media screen and (min-width:1920px){
+    .planet5{
+        right: calc(((100% - 1920px/2) - 8px));
+    }
 }
-.planet3 img{
-    width: 75%;
-}
-

@@ -1,5 +1,3 @@
-import React, { useState } from 'react';
-
 import "../styles/ComponentsStyles/Scroll.css"
 
 const Scroll = (props) => {

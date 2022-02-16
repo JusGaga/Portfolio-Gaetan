@@ -4,11 +4,16 @@
     align-items: center;
     position: absolute;
     top: 0;
-    width: 100vw;
+    width: 100% ;
     z-index: 1000;
-    padding: 1.5em;
 }
 
+.left a{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: .5em;
+}
 .logo{
     width: 50%;
 }

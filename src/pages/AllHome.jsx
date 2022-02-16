@@ -1,9 +1,9 @@
 import React from 'react';
-import Home from "./pages/Home";
-import Projects from "./pages/Projects";
-import AboutMe from "./pages/AboutMe";
-import Contact from "./pages/Contact";
-import Footer from "./pages/Footer";
+import Home from "./pages/StarterPages/Home";
+import Projects from "./pages/StarterPages/Projects";
+import AboutMe from "./pages/StarterPages/AboutMe";
+import Contact from "./pages/StarterPages/Contact";
+import Footer from "./pages/StarterPages/Footer";
 
 
 const AllHome = () => {

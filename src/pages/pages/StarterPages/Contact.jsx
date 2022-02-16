@@ -1,11 +1,11 @@
 import React from 'react';
-import "../../styles/pages/Contact.css"
-import Scroll from "../../components/Scroll";
-import UnderTitle from "../../Img/UnderTitle.svg";
+import "../../../styles/pages/StarterPages/Contact.css"
+import Scroll from "../../../components/Scroll";
+import UnderTitle from "../../../Img/UnderTitle.svg";
 import {Link} from "react-router-dom";
-import ContactMe from "../../Img/ContactMe.png";
-import planet4 from "../../Img/planet4.svg";
-import planet5 from "../../Img/planet5.svg";
+import ContactMe from "../../../Img/ContactMe.png";
+import planet4 from "../../../Img/planet4.svg";
+import planet5 from "../../../Img/planet5.svg";
 
 const Contact = () => {
     return (
@@ -22,8 +22,8 @@ const Contact = () => {
                         <h2><a href="#FormContact">Mail : gaetan3107@gmail.com</a><br/><br/><br/>phone : 07 77 95 15 80</h2>
                         <div><Link to="#">Contact form</Link></div>
                     </div>
-                    <img className={"ContactMeImg"} src={ContactMe} alt=" Contact"/>
                 </div>
+                    <img className={"ContactMeImg "} src={ContactMe} alt=" Contact"/>
             </div>
             <div className={"planet5"}>
                 <img src={planet5} alt="planet5"/>

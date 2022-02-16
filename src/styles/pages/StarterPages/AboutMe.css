@@ -1,23 +1,23 @@
-.middlePageHome4{
+.middlePageHome3{
     position: absolute;
-    top:300vh;
-    height: 100vh;
-    width: 100vw;
+    /*top:200%;*/
+    height: 100%;
+    width: 100%;
     overflow: hidden;
     display: flex;
     align-items: center;
 }
 
-.ContainerContact{
+.ContainerAboutMe{
     position: absolute;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.Present3{
+.Present2{
     position: relative;
     z-index: 10;
     display: flex;
@@ -28,22 +28,21 @@
     width: 500px;
     padding-left: 250px ;
     color: var(--white);
+
 }
-.Present3 h1{
+
+.Present2 h1{
     font-size: 44px;
 }
-.Present3 h2{
+
+.Present2 h2{
     margin-top: 25px;
     font-size: 28px;
     margin-left: 50px;
     text-shadow: 4px 4px 10px #000000;
 }
 
-.Present3 h2 a {
-    color: var(--white);
-}
-
-.Present3 div a {
+.Present2 div a {
     margin-top:50px ;
     width: 200px;
     height: 50px;
@@ -54,33 +53,22 @@
     border-radius: 25px;
 }
 
-.ContactMeImg{
+.AboutMeImg{
     z-index: 0;
-    width: 1200px;
+    width: 65%;
     border-radius: 50px;
-
-}
-
-.planet4{
     position: absolute;
-    z-index: 1;
-    top:calc(300vh - 329px);
+    right: 0;
+
 }
 
-.planet5{
-    position: absolute;
-    z-index: 1;
-    top: calc(400vh - 360px);
-    /*right: 0;*/
-    right: calc(((100vw - 1920px)/2) - 8px)
-}
-
-.line4{
+.line3{
     position: absolute;
     z-index: 0;
-    top: 400vh;
-    width: 100vw;
+    top: 300%;
+    width: 100%;
     height: 6px;
     background: linear-gradient(-90deg,rgba(42,42,60,0)0%,rgba(255,255,255,100)50%,rgba(42,42,60,0)100%);
 }
+
 

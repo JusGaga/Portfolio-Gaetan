@@ -1,8 +1,8 @@
 import React from 'react';
 
-import "../../styles/pages/Footer.css"
+import "../../../styles/pages/StarterPages/Footer.css"
 
-import footer from "../../Img/Footer.svg"
+import footer from "../../../Img/Footer.svg"
 
 const Footer = () => {
     return (
