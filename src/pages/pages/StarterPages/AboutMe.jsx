@@ -11,7 +11,7 @@ const AboutMe = (props) => {
     return (
         <>
             <div className={"middlePageHome3"} style={{top: props.activate === 1 ? "0vh" : "200vh"}}>
-                <div style={{display: props.activate === 1 ? "none" : "block"}}><Scroll page={3} /></div>
+                <Scroll page={3} activate={props.activate} />
                 <div className={"ContainerAboutMe "}>
                     <div className="Present2">
                         <h1>About Me</h1>

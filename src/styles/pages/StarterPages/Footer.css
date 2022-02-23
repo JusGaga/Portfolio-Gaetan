@@ -15,7 +15,7 @@
     font-size: 18px;
     position: relative;
     white-space: nowrap;
-    color: #61dafb;
+    color: var(--secondary-color);
 }
 
 .link::before,

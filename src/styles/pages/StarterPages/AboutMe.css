@@ -46,11 +46,19 @@
     margin-top:50px ;
     width: 200px;
     height: 50px;
-    background: #61dafb;
+    color: var(--secondary-color);
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 25px;
+    border-radius: 10px;
+    border: 2px solid;
+    line-height: 1;
+    transition: 0.25s;
+}
+.Present2 div a:hover{
+    box-shadow: inset 0 0 0 2em var(--secondary-color);
+    color:white;
+
 }
 
 .AboutMeImg{
