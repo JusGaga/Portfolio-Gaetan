@@ -29,7 +29,7 @@ const AboutMePages = () => {
         <>
             <NavBar/>
             <AboutMe activate={1} />
-            <div className={"ContentAboutMePages"}>
+                <div className={"ContentAboutMePages"}>
                 <div className={"Separator"}></div>
                 <h1><span className={"Number"}>1. </span>Who I am ? </h1>
                 <div className={"centerContentAboutMePages"}>
