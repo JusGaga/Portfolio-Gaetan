@@ -21,19 +21,19 @@ const Projects = (props) => {
                 <div style={{display: props.activate === 1 ? "none" : "block"}}><Scroll page={2}/></div>
                 <div className="containerProject">
                   <div className="Present">
-                      <h1>Project</h1>
-                      <img className="underTitle" src={UnderTitle} alt={"underTitle"}></img>
-                      <h2>Explore my different projects,<br/>
-                          I'll explain how did it.</h2>
+                      <h1>Projets</h1>
+                      <img className="underTitle" src={UnderTitle} alt={"underTitle"}/>
+                      <h2>Explorer mes différents projets,<br/>
+                          Je vous expliquerai comment je les est réalisé.</h2>
                       <div style={{display: props.activate === 1 ? "none" : "block"}}><Link to="/Projects" onClick={window.scrollTo(0, 0)}>Explore More</Link></div>
                   </div>
                 </div>
-                  <img className={"ProjectImg "} src={ProjectImg} alt=" Project" />
+                  <img className={"ProjectImg "} src={ProjectImg} alt="Projets" />
             </div>
             <div className={"planet3"} style={{display: props.activate === 1 ? "none" : "flex"}}>
                 <img src={planet3} alt="planet3"/>
             </div>
-            <div className={"line2"} style={{display: props.activate === 1 ? "none" : "block"}}></div>
+            <div className={"line2"} style={{display: props.activate === 1 ? "none" : "block"}}/>
         </>
     );
 };

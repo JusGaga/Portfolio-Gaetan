@@ -17,13 +17,13 @@ const Contact = () => {
                 <Scroll page={4} />
                 <div className={"ContainerContact"}>
                     <div className="Present3">
-                        <h1>Contact Me</h1>
+                        <h1>Contactez-moi</h1>
                         <img className="underTitle" src={UnderTitle} alt={"underTitle"}></img>
-                        <h2><a href="#FormContact">Mail : gaetan3107@gmail.com</a><br/><br/><br/>phone : 07 77 95 15 80</h2>
-                        <div><Link to="#">Contact form</Link></div>
+                        <h2><a href="#FormContact">Mail : gaetan3107@gmail.com</a><br/><br/><br/>Télephone : 07 77 95 15 80</h2>
+                        <div><Link to="#">Formulaire de contact</Link></div>
                     </div>
                 </div>
-                    <img className={"ContactMeImg "} src={ContactMe} alt=" Contact"/>
+                    <img className={"ContactMeImg "} src={ContactMe} alt="Contactez moi"/>
             </div>
             <div className={"planet5"}>
                 <img src={planet5} alt="planet5"/>

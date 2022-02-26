@@ -10,20 +10,20 @@ const Footer = () => {
             <div className={"ContainerFooter"}>
                 <div className={"ContainerFooter2"}>
                     <div className={"leftFooter"}>
-                        <h1>This website is inspired by the <a className="link link--metis" href="https://www.kuon.space"> Kyon Yagi website </a><br/>
-                            The images were made by <a className="link link--metis" href="https://www.figma.com/@seda"> Seda </a> </h1>
+                        <h1>Ce site web s'inspire de <a className="link link--metis" href="https://www.kuon.space"> Kyon Yagi </a><br/>
+                            Les images des planètes sont réalisées par <a className="link link--metis" href="https://www.figma.com/@seda"> Seda </a> </h1>
                     </div>
                     <div className={"RightFooter"}>
-                        <h1 style={{fontSize:'24px',marginBottom:"15px",marginLeft:"5px",color:"var(--white)"}}>Contact Form</h1>
+                        <h1 style={{fontSize:'24px',marginBottom:"15px",marginLeft:"5px",color:"var(--white)"}}>Formulaire de contact</h1>
                         <form action="" id={"FormContact"}>
-                            <label htmlFor="Name">Your Name :</label>
+                            <label htmlFor="Name">Votre Nom:</label>
                             <input type="text" name={"Name"} id={"Name"} placeholder={"Name..."}/>
-                            <label htmlFor="Email">Your Email :</label>
+                            <label htmlFor="Email">Votre Email :</label>
                             <input type="email" name={"Email"} id={"Email"} placeholder={"Email@email.com..."}/>
-                            <label htmlFor="Messsage">Your message:</label>
+                            <label htmlFor="Messsage">Votre Message:</label>
                             <textarea name={'Message'} id={'Message'} cols={90} rows={15} placeholder={'Your message...'}/>
                             <div className={"btnFooter"}>
-                            <button>Send</button>
+                            <button>Envoyer</button>
                             </div>
 
                         </form>
@@ -33,7 +33,7 @@ const Footer = () => {
                     <img src={footer} alt="Planet Footer" />
                 </div>
             <div className={"copy"}>
-                Made by JusGaga © 2022
+                Réalisé par JusGaga © 2022
             </div>
             </div>
         </>

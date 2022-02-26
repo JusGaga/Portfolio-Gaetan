@@ -35,7 +35,6 @@ console.log(info)
 
                 {info.filter(data => data.name.includes("Project")).map(infos=>
                     <Card key={infos.id} name={infos.name} description={infos.description}  created={infos.created_at}  update={infos.updated_at} url={infos.html_url} website={"#"}/>
-
                 )}
 
             </div>

@@ -29,12 +29,12 @@ const Card = ({
           <div>
             <h5 className='card-title'>{name.replace(/\b(Project|-)|[#_-]/g, ' ')}</h5>
           </div>
-          <h6 className='card-subtitle'>Created at : {(date.getDate() < 10
+          <h6 className='card-subtitle'>Created at : {((date.getDate() < 10
             ? '0' + date.getDate()
             : date.getDate()) + '/' + ((date.getMonth() + 1) < 10
             ? '0' + (date.getMonth() + 1)
-            : date.getMonth() + 1) + '/' + date.getFullYear()}</h6>
-          <h6 className='card-subtitle'>Updated at : {(updates.getDate() < 10
+            : date.getMonth() + 1) + '/' + date.getFullYear())+ " "}
+          Updated at : {(updates.getDate() < 10
             ? '0' + updates.getDate()
             : updates.getDate()) + '/' + ((updates.getMonth() + 1) < 10
             ? '0' + (updates.getMonth() + 1)
@@ -43,8 +43,8 @@ const Card = ({
             <p className='card-text'>{description}</p>
           </div>
           <div className='card-footer'>
-            <a href={url} className='card-link'>See Repository Github</a>
-            <a href='#' className='card-link'>Another link</a>
+            <a href={url} className='card-link'>Voir le répository Github</a>
+            <a href='#' className='card-link'>Lien pour voir le site.</a>
           </div>
         </div>
       </div>

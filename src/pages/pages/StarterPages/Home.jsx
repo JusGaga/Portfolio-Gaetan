@@ -18,7 +18,7 @@ const Home = () => {
               <div className={"centerPage"}>
                 <div className={"circle "}>
                     <h3 className={'center one'}>Juston Gaetan</h3>
-                    <p className={"center two"}>Web developer</p>
+                    <p className={"center two"}>Développeur Web</p>
                 </div>
                     <div className={"planet "}>
                         <img src={planet} alt="Planet"/>
@@ -27,7 +27,7 @@ const Home = () => {
             </div>
             <div className={"bottom"}>
                 <div className={"scrollDown"}>
-                    Scroll Down
+                  Défiler vers le bas
                 </div>
                 <div className="line "></div>
             </div>
