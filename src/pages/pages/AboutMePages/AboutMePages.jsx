@@ -85,25 +85,35 @@ const AboutMePages = () => {
       </div>
       <div className={'LastContentAboutMePages'}>
         <div className={'Separator3'}></div>
-        <h1><span className='Number'>3.</span> Skills</h1>
+        <h1><span className='Number'>3.</span> Compétences</h1>
         <div className={'centerLastContentAboutMePages'}>
-          <div className='leftLastContent'>
+          <div className='Front-end'>
+            <h2>Front-end :</h2>
             <ProgressBarFunction url={html} alt={'logo html'} completed={75} max={100} color={'orange'}/>
             <ProgressBarFunction url={css} alt={'logo css'} completed={65} max={100} color={'darkturquoise '}/>
             <ProgressBarFunction url={js} alt={'logo javascript'} completed={70} max={100} color={'gold'}/>
+            <ProgressBarFunction url={bootstrap} alt={'logo BootStrap'} completed={65} max={100} color={'purple'}/>
+            <ProgressBarFunction url={react} alt={'logo react'} completed={60} max={100} color={'lightBlue'}/>
+          </div>
+          <div className={'Back-end'}>
+            <h2>Back-end :</h2>
             <ProgressBarFunction url={php} alt={'logo php'} completed={65} max={100} color={'cadetblue'}/>
             <ProgressBarFunction url={sql} alt={'logo sql'} completed={60} max={100} color={'coral'}/>
             <ProgressBarFunction url={mysql} alt={'logo mysql'} completed={60} max={100} color={'grey'}/>
-            <ProgressBarFunction url={bootstrap} alt={'logo BootStrap'} completed={65} max={100} color={'purple'}/>
-          </div>
-          <div className='rightLastContent'>
-            <ProgressBarFunction url={react} alt={'logo react'} completed={60} max={100} color={'lightBlue'}/>
             <ProgressBarFunction url={symfony} alt={'logo symfony'} completed={20} max={100} color={'black'}/>
-            <ProgressBarFunction url={figma} alt={'logo figma'} completed={75} max={100} color={'red'}/>
-            <ProgressBarFunction url={photoshop} alt={'logo photoshop'} completed={65} max={100} color={'cadetblue'}/>
-            <ProgressBarFunction url={illustrator} alt={'logo illustrator'} completed={50} max={100} color={'coral'}/>
-            <ProgressBarFunction url={xd} alt={'logo xd'} completed={25} max={100} color={'pink'}/>
-            <ProgressBarFunction url={git} alt={'logo git'} completed={60} max={100} color={'orange'}/>
+          </div>
+          <div className={'Autres'}>
+            <div className={'Design'}>
+              <h2> Design :</h2>
+              <ProgressBarFunction url={figma} alt={'logo figma'} completed={75} max={100} color={'red'}/>
+              <ProgressBarFunction url={xd} alt={'logo xd'} completed={25} max={100} color={'pink'}/>
+            </div>
+            <div className={'Other'}>
+              <h2 className={'mt-2'}>Autres :</h2>
+              <ProgressBarFunction url={photoshop} alt={'logo photoshop'} completed={65} max={100} color={'cadetblue'}/>
+              <ProgressBarFunction url={illustrator} alt={'logo illustrator'} completed={50} max={100} color={'coral'}/>
+              <ProgressBarFunction url={git} alt={'logo git'} completed={60} max={100} color={'orange'}/>
+            </div>
           </div>
         </div>
       </div>

@@ -1,12 +1,11 @@
-.ContainerFooter{
-
-    position: absolute;
-    top:400%;
+.ContainerFooter {
+    position: relative;
+    top: 300%;
     height: 100%;
     width: 100%;
     overflow: hidden;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
 
 }
 
@@ -49,7 +48,7 @@
     transform: scale3d(1, 1, 1);
 }
 
-.footer{
+.footer {
     position: absolute;
     bottom: -300px;
     width: 100%;
@@ -58,44 +57,48 @@
     justify-content: center;
 }
 
-.ContainerFooter2{
+
+.ContainerFooter2 {
     z-index: 2;
     width: 100%;
+    height: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
+
 }
-.leftFooter{
+
+.leftFooter {
     color: var(--white);
-    margin-top: 200px ;
+    margin-top: 200px;
     width: 600px;
 }
 
-.leftFooter h1{
-line-height: 2em;
+.leftFooter h1 {
+    line-height: 2em;
 }
 
-.RightFooter{
-    margin-top: 100px ;
+.RightFooter {
+    margin-top: 100px;
     width: 400px;
     display: flex;
     flex-wrap: wrap;
 }
 
-#FormContact *{
-    border:none;
+#FormContact * {
+    border: none;
     outline: none;
 }
 
-#FormContact label{
+#FormContact label {
     color: var(--white)
 }
 
-#FormContact input, #FormContact label, #FormContact textarea{
+#FormContact input, #FormContact label, #FormContact textarea {
     margin-top: 10px;
     margin-bottom: 10px;
     width: 400px;
-    padding:10px;
+    padding: 10px;
     border-radius: 25px;
     resize: none;
 }
@@ -106,17 +109,18 @@ line-height: 2em;
     border-radius: 25px;
 }
 
-.btnFooter{
+.btnFooter {
     display: flex;
     justify-content: flex-end;
 }
-.copy{
+
+.copy {
     color: var(--white);
     display: flex;
     justify-self: center;
     position: absolute;
     top: 97%;
-    left: calc((100%/2) - 99px);
+    left: calc((100% / 2) - 99px);
     z-index: 4;
 
 }
