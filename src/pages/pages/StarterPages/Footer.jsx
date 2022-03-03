@@ -1,13 +1,51 @@
 import React from 'react';
+import emailjs from '@emailjs/browser';
 
 import '../../../styles/pages/StarterPages/Footer.css';
 
 import footer from '../../../Img/Footer.svg';
 
 const Footer = () => {
+  let b = 0;
+
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    console.log(!e.target.Name.value);
+    let a = document.querySelector('#Error');
+    if (e.target.Name.value !== '' && e.target.Email.value !== '' && e.target.Message.value !== '') {
+      emailjs.sendForm('service_rn0s6ow', 'template_z62u9vd', e.target, 'ZZMiG-2_SQMxTp1ld')
+        .then((result) => {
+          console.log(result.text);
+        }, (error) => {
+          console.log(error.text);
+        });
+      let child = a.lastElementChild;
+      while (child) {
+        a.removeChild(child);
+        child = a.lastElementChild;
+      }
+      const error = document.createElement('h3');
+      error.innerText = 'Votre message à bien était envoyé';
+      error.style.background = 'rgba(0, 255, 50, 0.5)';
+      error.className = 'error';
+      a.appendChild(error);
+    } else if (b < 1) {
+      b++;
+      const error = document.createElement('h3');
+      error.innerText = 'Veuillez remplir la totalité des champs';
+      error.style.background = 'rgba(255, 50, 50, 0.5)';
+      error.className = 'error';
+      a.appendChild(error);
+    }
+
+    e.target.reset();
+  };
+
+
   return (
     <>
-      <div className={'ContainerFooter'}>
+      <div className={'ContainerFooter'} id={'ContainerFooter'}>
         <div className={'ContainerFooter2'}>
           <div className={'leftFooter'}>
             <h3>Ce site web s'inspire
@@ -24,7 +62,7 @@ const Footer = () => {
               marginLeft: '5px',
               color: 'var(--white)',
             }}>Formulaire de contact</h1>
-            <form action='' id={'FormContact'}>
+            <form id={'FormContact'} onSubmit={sendEmail}>
               <label htmlFor='Name'>Votre Nom:</label>
               <input type='text' name={'Name'} id={'Name'} placeholder={'Name...'}/>
               <label htmlFor='Email'>Votre Email :</label>
@@ -32,9 +70,11 @@ const Footer = () => {
               <label htmlFor='Messsage'>Votre Message:</label>
               <textarea name={'Message'} id={'Message'} cols={90} rows={15} placeholder={'Your message...'}/>
               <div className={'btnFooter'}>
-                <button>Envoyer</button>
+                <input type={'submit'} value={'Envoyer'}/>
               </div>
+              <div id={'Error'}>
 
+              </div>
             </form>
           </div>
         </div>

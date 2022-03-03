@@ -26,6 +26,7 @@ import travel from '../../../Img/airplane.png';
 import tecnology from '../../../Img/chip.png';
 
 import profil from '../../../Img/Profil/Profil.jpg';
+import pdf from '../../../media/Cv_Dev.pdf';
 
 const AboutMePages = () => {
 
@@ -33,7 +34,7 @@ const AboutMePages = () => {
     <>
       <NavBar/> <AboutMe activate={1}/>
       <div className={'ContentAboutMePages'}>
-        <div className={'Separator'}></div>
+        <div className={'Separator'}/>
         <h1><span className={'Number'}>1. </span>Who I am ? </h1>
         <div className={'centerContentAboutMePages'}>
 
@@ -46,7 +47,9 @@ const AboutMePages = () => {
                  devenir Développeur Web et Web Mobile. Je conçois et réalise des sites web du
                  cahier des charges à la mise en ligne. J'adore découvrir de nouvelles technologies
                  ce qui me permet d'évoluer constamment.</h3><br/>
-            <h3>Vous souhaitez avoir mon CV au format PDF c'est par <a href='#'>ici</a></h3>
+            <h3>Vous souhaitez avoir mon CV au format PDF c'est
+                par <a href={pdf} download={'Cv_Gaetan_Juston.pdf'} className='link link--metis'>ici</a>
+            </h3>
           </div>
         </div>
       </div>

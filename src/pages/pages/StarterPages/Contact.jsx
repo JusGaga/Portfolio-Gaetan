@@ -2,7 +2,6 @@ import React from 'react';
 import '../../../styles/pages/StarterPages/Contact.css';
 import Scroll from '../../../components/Scroll';
 import UnderTitle from '../../../Img/UnderTitle.svg';
-import { Link } from 'react-router-dom';
 import ContactMe from '../../../Img/ContactMe.png';
 import planet4 from '../../../Img/planet4.svg';
 import planet5 from '../../../Img/planet5.svg';
@@ -22,7 +21,7 @@ const Contact = () => {
             <h2><a href='#FormContact'>Mail : gaetan3107@gmail.com</a><br/><br/><br/>Télephone : 07
                                                                                      77 95 15 80
             </h2>
-            <div><Link to='#'>Formulaire de contact</Link></div>
+            <div><a href='#ContainerFooter'>Formulaire de contact</a></div>
           </div>
         </div>
         <img className={'ContactMeImg '} src={ContactMe} alt='Contactez moi'/>

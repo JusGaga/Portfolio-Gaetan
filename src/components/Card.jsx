@@ -2,19 +2,30 @@ import React from 'react';
 
 import '../styles/ComponentsStyles/Card.css';
 import nofund from '../Img/no-image-found.png';
+import porfolio from '../Img/Project/PortFolio.png';
+import Tmdb from '../Img/Project/Tmdb.png';
+import noel from '../Img/Project/Noel.png';
 
 const Card = ({
+  id = '',
   image = '',
   name = '',
   description = '',
   created = '',
   update = '',
   url = '',
-  website = '',
 }) => {
   const date = new Date(created.toString());
   const updates = new Date(update.toString());
 
+  if (id === 454875724) {
+    image = porfolio;
+  } else if (id === 435811151) {
+    image = noel;
+  } else if (id === 440596160) {
+    image = Tmdb;
+  }
+  console.log(image);
 
   return (
     <>
@@ -33,18 +44,17 @@ const Card = ({
             ? '0' + date.getDate()
             : date.getDate()) + '/' + ((date.getMonth() + 1) < 10
             ? '0' + (date.getMonth() + 1)
-            : date.getMonth() + 1) + '/' + date.getFullYear())+ " "}
-          Updated at : {(updates.getDate() < 10
-            ? '0' + updates.getDate()
-            : updates.getDate()) + '/' + ((updates.getMonth() + 1) < 10
-            ? '0' + (updates.getMonth() + 1)
-            : updates.getMonth() + 1) + '/' + updates.getFullYear()}</h6>
+            : date.getMonth() + 1) + '/' + date.getFullYear()) + ' '} Updated at
+                                        : {(updates.getDate() < 10
+              ? '0' + updates.getDate()
+              : updates.getDate()) + '/' + ((updates.getMonth() + 1) < 10
+              ? '0' + (updates.getMonth() + 1)
+              : updates.getMonth() + 1) + '/' + updates.getFullYear()}</h6>
           <div>
             <p className='card-text'>{description}</p>
           </div>
           <div className='card-footer'>
-            <a href={url} className='card-link'>Voir le répository Github</a>
-            <a href='#' className='card-link'>Lien pour voir le site.</a>
+            <a href={url} className='card-link'>Voir le répertoire Github</a>
           </div>
         </div>
       </div>

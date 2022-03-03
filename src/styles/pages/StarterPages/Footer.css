@@ -111,7 +111,7 @@
 
 .btnFooter {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 .copy {
@@ -123,4 +123,14 @@
     left: calc((100% / 2) - 99px);
     z-index: 4;
 
+}
+
+.error {
+    color: white;
+    height: 50px;
+    border-radius: 25px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }

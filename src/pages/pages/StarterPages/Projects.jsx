@@ -22,7 +22,7 @@ const Projects = (props) => {
           ? '0vh'
           : '100vh',
       }}>
-        <div style={{ display: props.activate === 1 ? 'none' : 'block' }}><Scroll page={2}/></div>
+        <Scroll page={2} activate={props.activate}/>
         <div className='containerProject'>
           <div className='Present'>
             <h1>Projets</h1>

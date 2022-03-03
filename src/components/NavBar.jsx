@@ -4,7 +4,7 @@ import '../styles/ComponentsStyles/NavBar.css';
 
 import github from '../Img/github.svg';
 import linkedin from '../Img/linkedin.svg';
-import MenuBurger from '../Img/MenuBurger.svg';
+
 import Logo from '../Img/Logo.png';
 import { Link } from 'react-router-dom';
 

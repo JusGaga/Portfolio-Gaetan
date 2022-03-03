@@ -1,5 +1,5 @@
-.Scrollspace{
-    height: 150px ;
+.Scrollspace {
+    height: 150px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -7,7 +7,7 @@
     z-index: 12;
 }
 
-.SmallLine{
+.SmallLine {
     margin-left: 25px;
     width: 100px;
     height: 6px;
@@ -21,18 +21,18 @@
 
 }
 
-.SmallLine span{
+.SmallLine span {
     display: flex;
     justify-content: center;
     color: #61dafb;
     padding-top: 5px;
 }
 
-.off{
+.off {
     display: none;
 }
 
-.SmallLine:hover, .SmallLine:hover span{
+.SmallLine:hover, .SmallLine:hover span {
     max-height: 25px;
     animation: test 2s linear 0.2s 1 normal forwards;
     overflow: hidden;
@@ -40,13 +40,13 @@
 }
 
 @keyframes test {
-    0%{
-    visibility: visible;
+    0% {
+        visibility: visible;
     }
-    50%{
+    50% {
         transform: translateY(0px);
     }
-    100%{
+    100% {
 
         height: 100%;
     }
