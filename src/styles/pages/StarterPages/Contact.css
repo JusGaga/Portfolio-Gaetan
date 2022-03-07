@@ -1,6 +1,6 @@
-.middlePageHome4{
+.middlePageHome4 {
     position: absolute;
-    top:300%;
+    top: 300%;
     height: 100%;
     width: 100%;
     overflow: hidden;
@@ -8,7 +8,7 @@
     align-items: center;
 }
 
-.ContainerContact{
+.ContainerContact {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -17,7 +17,7 @@
     justify-content: space-between;
 }
 
-.Present3{
+.Present3 {
     position: relative;
     z-index: 10;
     display: flex;
@@ -26,13 +26,15 @@
 
     height: 300px;
     width: 500px;
-    padding-left: 250px ;
+    padding-left: 250px;
     color: var(--white);
 }
-.Present3 h1{
+
+.Present3 h1 {
     font-size: 44px;
 }
-.Present3 h2{
+
+.Present3 h2 {
     margin-top: 25px;
     font-size: 28px;
     margin-left: 50px;
@@ -44,7 +46,7 @@
 }
 
 .Present3 div a {
-    margin-top:50px ;
+    margin-top: 50px;
     width: 200px;
     height: 50px;
     color: var(--secondary-color);
@@ -56,13 +58,14 @@
     line-height: 1;
     transition: 0.25s;
 }
-.Present3 div a:hover{
+
+.Present3 div a:hover {
     box-shadow: inset 0 0 0 2em var(--secondary-color);
-    color:white;
+    color: white;
 
 }
 
-.ContactMeImg{
+.ContactMeImg {
     z-index: 0;
     width: 65%;
     border-radius: 50px;
@@ -70,30 +73,75 @@
     right: 0;
 }
 
-.planet4{
+.planet4 {
     position: absolute;
     z-index: 1;
-    top:calc(300% - 329px);
+    top: calc(300% - 329px);
 }
 
-.planet5{
+.planet5 {
     position: absolute;
     z-index: 1;
     top: calc(400% - 360px);
     left: calc(100% - 504px);
 }
 
-.line4{
+.line4 {
     position: absolute;
     z-index: 0;
     top: 400%;
     width: 100%;
     height: 6px;
-    background: linear-gradient(-90deg,rgba(42,42,60,0)0%,rgba(255,255,255,100)50%,rgba(42,42,60,0)100%);
+    background: linear-gradient(-90deg, rgba(42, 42, 60, 0) 0%, rgba(255, 255, 255, 100) 50%, rgba(42, 42, 60, 0) 100%);
 }
 
-@media screen and (min-width:1921px){
-    .planet5{
-        left: calc(((100% - 1920px - 504px)/4) + 1920px)
+@media screen and (min-width: 1921px) {
+    .planet5 {
+        left: calc(((100% - 1920px - 504px) / 4) + 1920px)
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .planet4 {
+        top: calc(300% - 281px)
+    }
+
+    .planet4 img {
+        width: 75%;
+    }
+
+    .ContainerContact {
+        display: flex;
+        justify-content: center;
+    }
+
+    .Present3 {
+        width: 80%;
+        padding: 0;
+    }
+
+    .Present3 h1 {
+        text-shadow: 4px 4px 10px #000000;
+    }
+
+    .ContactMeImg {
+        width: 100%;
+        position: absolute;
+        top: 5%;
+    }
+
+    .Present3 div a {
+        width: unset;
+        background: white;
+    }
+
+    .planet5 {
+        top: calc(400% - 281px);
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .planet5 img {
+        width: 65%;
     }
 }
