@@ -16,7 +16,7 @@ const Home = () => {
         <Scroll page={1}/>
         <div className={'centerPage'}>
           <div className={'circle '}>
-            <h3 className={'center one'}>Juston Gaetan</h3>
+            <h3 className={'center one'}>Juston Gaëtan</h3>
             <p className={'center two'}>Développeur Web</p>
           </div>
           <div className={'planet '}>
@@ -28,7 +28,7 @@ const Home = () => {
         <div className={'scrollDown'}>
           Défiler vers le bas
         </div>
-        <div className='line '></div>
+        <div className='line '/>
       </div>
     </>
   );

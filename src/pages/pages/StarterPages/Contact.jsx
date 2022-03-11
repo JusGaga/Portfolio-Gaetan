@@ -18,7 +18,7 @@ const Contact = () => {
           <div className='Present3'>
             <h1>Contactez-moi</h1>
             <img className='underTitle' src={UnderTitle} alt={'underTitle'}/>
-            <h2><a href='#FormContact'>Mail : gaetan3107@gmail.com</a><br/><br/><br/>Télephone : 07
+            <h2><a href='#FormContact'>Mail : gaetan3107@gmail.com</a><br/><br/><br/>Téléphone : 07
                                                                                      77 95 15 80
             </h2>
             <div><a href='#ContainerFooter'>Formulaire de contact</a></div>

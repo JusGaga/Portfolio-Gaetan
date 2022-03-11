@@ -42,47 +42,45 @@ const AboutMePages = () => {
             <img src={profil} alt='profil' className={'imgProfil'}/>
           </div>
           <div className={'rightAboutMe'}>
-            <h1>Juston Gaetan</h1>
+            <h1>Juston Gaëtan</h1>
             <h3> Développeur passionné dans le domaine du web , actuellement en formation pour
                  devenir Développeur Web et Web Mobile. Je conçois et réalise des sites web du
                  cahier des charges à la mise en ligne. J'adore découvrir de nouvelles technologies
                  ce qui me permet d'évoluer constamment.</h3><br/>
-            <h3>Vous souhaitez avoir mon CV au format PDF c'est
-                par <a href={pdf} download={'Cv_Gaetan_Juston.pdf'} className='link link--metis'>ici</a>
+            <h3>Vous souhaitez obtenir mon CV au format PDF c'est <a href={pdf} download={'Cv_Gaetan_Juston.pdf'} className='link link--metis'>ici</a>
             </h3>
           </div>
         </div>
       </div>
       <div className={'SecondContentAboutMePages'}>
         <div className={'Separator2'}></div>
-        <h1><span className={'Number'}>2. </span>My hobbies</h1>
+        <h1><span className={'Number'}>2. </span>Mes hobbies</h1>
         <div className={'centerSecondContentAboutMePages'}>
           <div className={'ContentHobbies'}>
             <img src={tecnology} alt='logo technology' className={'imgHobbies '}/>
             <h1>Technologie</h1>
-            <h3> Passionnée de technologie, j'aime être au courant des dernières innovations allant
-                 de l'informatique à l'espace en passant par les objets du quotidien. Ce que j'aime
-                 en plus de la technique c'est son utilité et la facilité à l'utiliser, elle est
-                 aussi importante pour les jeunes personnes comme celle d'un certain âge elles leur
-                 facilitent le quotidien et c'est ce qui est incroyable.</h3>
+            <h3> Passionné de technologie, j'aime me tenir informé des dernières innovations allant
+                 de l'informatique à l'espace. Aujourd'hui la technologie fait partie
+              intégrante de notre quotidien même si l'illectronisme touche actuellement près 1/4 de la population française.
+            </h3>
           </div>
           <div className={'ContentHobbies'}>
             <img src={forest} alt='logo forest' className={'imgHobbies '}/>
             <h1>Nature</h1>
-            <h3>La nature est pour moi quelques choses de merveilleux, il faut l'entretenir et en
-                prendre soin. Ce que j'aime avec la nature c'est pouvoir sortir me balader allez
-                découvrir des endroits magnifiques des forêts, des lacs, des montagnes, etc .
-                Pouvoir également profité de celles-ci camper pêchers tous en respectant celle-ci me
+            <h3>La nature est pour moi quelque chose de merveilleux, il faut l'entretenir et en
+                prendre soin. Ce que j'aime avec la nature c'est pouvoir sortir me ballader aller
+                découvrir des endroits magnifiques, des forêts, des lacs, des montagnes, etc .
+                Pouvoir également profiter de celle-ci camper pêcher tout en la respectant. Elle me
                 procure le plus grand bien.</h3>
           </div>
           <div className={'ContentHobbies'}>
             <img src={travel} alt='logo travel' className={'imgHobbies '}/>
-            <h1>Voyages</h1>
-            <h3> Le voyage est un peu similaire à la nature, c’est-à-dire que j'aime voyager
-                 découvrir de magnifiques endroits de découvrir de nouvelles cultures et de partager
-                 les miennes, mais aussi de nouvelle saveur etc. le voyage est pour moi quelques
-                 choses d'important afin de prendre conscience de toutes les choses qui se trouvent
-                 autour de nous.</h3>
+            <h1>Projet de voyage</h1>
+            <h3> J'aimerais découvrir le japon. Dès mon plus jeune âge je me suis plongé dans le monde du manga,
+              de l'animé et du japonisme. Aujourd'hui je suis toujours amateur d'animés. Je souhaiterais explorer ce pays,
+              afin de comprendre sa Culture et d'expérimenter sa gastronomie.
+
+              </h3>
           </div>
         </div>
       </div>

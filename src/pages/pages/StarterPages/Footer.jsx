@@ -64,11 +64,11 @@ const Footer = () => {
             }}>Formulaire de contact</h1>
             <form id={'FormContact'} onSubmit={sendEmail}>
               <label htmlFor='Name'>Votre Nom:</label>
-              <input type='text' name={'Name'} id={'Name'} placeholder={'Name...'}/>
+              <input type='text' name={'Name'} id={'Name'} placeholder={'Nom...'}/>
               <label htmlFor='Email'>Votre Email :</label>
               <input type='email' name={'Email'} id={'Email'} placeholder={'Email@email.com...'}/>
               <label htmlFor='Messsage'>Votre Message:</label>
-              <textarea name={'Message'} id={'Message'} cols={90} rows={15} placeholder={'Your message...'}/>
+              <textarea name={'Message'} id={'Message'} cols={90} rows={15} placeholder={'Votre message...'}/>
               <div className={'btnFooter'}>
                 <input type={'submit'} value={'Envoyer'}/>
               </div>

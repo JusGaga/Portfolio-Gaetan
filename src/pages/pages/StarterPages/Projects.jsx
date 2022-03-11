@@ -23,8 +23,8 @@ const Projects = (props) => {
                     <div className='Present'>
                         <h1>Projets</h1>
                         <img className='underTitle' src={UnderTitle} alt={'underTitle'}/>
-                        <h2>Explorer mes différents projets,<br/> Je vous expliquerai comment je les est
-                            réalisé.</h2>
+                        <h2>Explorez mes différents projets,<br/> Je vous expliquerai comment je les ai
+                            réalisés</h2>
                         <div style={{display: props.activate === 1 ? 'none' : 'block'}}>
                             <Link to='/Projects' onClick={window.scrollTo(0, 0)}>Explorez plus</Link></div>
                     </div>

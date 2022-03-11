@@ -27,7 +27,7 @@ const MyComponent = () => {
     <NavBar/> <Projects activate={1}/>
     <div className={'ContentProjects'}>
       <div className={'Separator'}/>
-      <h1>Project list</h1>
+      <h1>Liste des Projets</h1>
       <div className={'centerContentProjects here'}>
 
         {info.filter(data => data.name.includes('Project')).map(infos =>

@@ -39,11 +39,11 @@ const Card = ({
                     <div>
                         <h5 className='card-title'>{name.replace(/\b(Project|-)|[#_-]/g, ' ')}</h5>
                     </div>
-                    <h6 className='card-subtitle'>Created at : {((date.getDate() < 10
+                    <h6 className='card-subtitle'> Créé le : {((date.getDate() < 10
                         ? '0' + date.getDate()
                         : date.getDate()) + '/' + ((date.getMonth() + 1) < 10
                         ? '0' + (date.getMonth() + 1)
-                        : date.getMonth() + 1) + '/' + date.getFullYear()) + ' '} Updated at
+                        : date.getMonth() + 1) + '/' + date.getFullYear()) + ' '} Dernière mise à jour
                         : {(updates.getDate() < 10
                             ? '0' + updates.getDate()
                             : updates.getDate()) + '/' + ((updates.getMonth() + 1) < 10
