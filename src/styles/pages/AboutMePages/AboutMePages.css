@@ -186,3 +186,67 @@
 .mt-2 {
     margin-top: 2em;
 }
+
+@media screen and (max-width: 850px) {
+    .Separator2, .Separator3 {
+        width: 20%;
+    }
+
+    .ContentAboutMePages, .SecondContentAboutMePages, .LastContentAboutMePages {
+        height: unset;
+        position: relative;
+        top: 0;
+    }
+
+    .ContentAboutMePages {
+        height: 100%;
+    }
+
+    .centerContentAboutMePages {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .imgProfil {
+        width: 50%;
+        height: unset;
+    }
+
+    .leftAboutMe {
+        padding-left: 0;
+        justify-content: center;
+        margin-top: 2em;
+
+    }
+
+    .rightAboutMe h3 {
+        width: 100%;
+        padding-top: 2em;
+    }
+
+    .centerSecondContentAboutMePages {
+        flex-direction: column;
+        height: unset;
+    }
+
+    .centerSecondContentAboutMePages div {
+        flex-direction: column;
+        width: 75%;
+    }
+
+    .ContentHobbies {
+        margin: 2em;
+    }
+
+    .centerLastContentAboutMePages {
+        display: flex;
+        flex-direction: column;
+        height: unset;
+    }
+
+    .Front-end, .Back-end, .Autres {
+        margin: 2em;
+        width: 75%;
+    }
+}

@@ -5,8 +5,7 @@
 
 
 .middlePageHome2 {
-    position: absolute;
-    top: 100%;
+    position: relative;
     height: 100%;
     width: 100%;
     overflow: hidden;
@@ -109,7 +108,7 @@
 
 @media screen and (min-width: 1921px) {
     .planet3 {
-        left: calc(((100% - 1920px) / 4) + 1920px + 32px)
+        left: calc(((100% - 1920px) / 2) + 1920px - 345px)
     }
 }
 
@@ -154,6 +153,11 @@
     .Present div a {
         width: unset;
         background: white;
+    }
+
+    .middlePageHome2 {
+        position: relative;
+        top: unset;
     }
 
 }

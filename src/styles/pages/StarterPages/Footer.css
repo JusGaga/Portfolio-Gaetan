@@ -1,6 +1,6 @@
 .ContainerFooter {
-    position: relative;
-    top: 300%;
+    position: absolute;
+    top: 400%;
     height: 100%;
     width: 100%;
     overflow: hidden;
@@ -143,7 +143,13 @@
 
     .leftFooter {
         margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .leftFooter h3 {
         text-align: center;
+        width: 50%;
     }
 
     .RightFooter {

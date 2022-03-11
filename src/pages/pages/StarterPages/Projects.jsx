@@ -17,11 +17,7 @@ const Projects = (props) => {
             <div className={'planet2'} style={{display: props.activate === 1 ? 'none' : 'block'}}>
                 <img src={planet2} alt='planet2'/>
             </div>
-            <div className={'middlePageHome2 '} id={'project'} style={{
-                top: props.activate === 1
-                    ? '0vh'
-                    : '100vh',
-            }}>
+            <div className={'middlePageHome2 '} id={'project'}>
                 <Scroll page={2} activate={props.activate}/>
                 <div className='containerProject'>
                     <div className='Present'>
